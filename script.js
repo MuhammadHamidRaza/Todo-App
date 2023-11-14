@@ -7,7 +7,10 @@ function addItem() {
 
   liElement.className = 'ok';
   var dltbtn = '<button onclick="dlt(event)">Delete</button>'
+
   var editbtn = '<button onclick="edit(event)">Edit</button>'
+  editbtn.className = 'edit'
+  
   liElement.innerHTML = inputElement.value + editbtn + dltbtn
   ulElement.append(liElement)
   inputElement.value = ""

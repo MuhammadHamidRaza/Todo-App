@@ -1,3 +1,17 @@
 .hide{
     display: none
 }
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.ok{
+    margin: 15px;
+    padding: 20px;
+    background-image: radial-gradient(red, yellow, green);
+}
+.edit{
+    margin: 10px;
+}
